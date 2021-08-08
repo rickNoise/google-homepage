@@ -3,6 +3,7 @@
   <head>
     <title>Google</title>
     <link rel="stylesheet" href="css/styles.css" />
+    <script src="./js/buttons.js" defer></script>
   </head>
 
   <body>
@@ -15,6 +16,25 @@
         <input type="submit" value="Google Search" />
         <input type="submit" value="I'm Feeling Lucky" />
       </form>
+    </div>
+
+    <div>
+      <h1>Fun with buttons and event listeners.</h1>
+      <p>
+        The following buttons demonstrate three distinct ways to add events to
+        DOM elements.
+      </p>
+
+      <!-- method 1 -->
+      <button onclick="alert('Hello World')">Embedded function method.</button>
+      <br />
+      <!-- method 2 -->
+      <button id="btn">
+        Set "on_event_" property on DOM object in JS method.
+      </button>
+      <br />
+      <!-- method 3 -->
+      <button id="btn2">Method 3.</button>
     </div>
   </body>
 </html>
